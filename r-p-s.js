@@ -17,3 +17,9 @@ const playGame = (event) => {
 for (const button of buttons) {
     button.addEventListener('click', playGame);
 }
+
+const computerPlay = () => {
+    const randomChoice = choices[Math.floor(Math.random() * choices.length)];
+    computerSelection = randomChoice;
+    computerChoice.innerHTML = 'Computer Choice:' + " " + computerSelection;
+}
