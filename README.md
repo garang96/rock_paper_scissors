@@ -13,4 +13,9 @@ Clicking a button will prompt the computer to display it's random choice and the
 - if statements
 - use of loops
 - working with arrays
+ 
+ ## Built with 
 
+ - HTML
+ - CSS
+ - JAVASCRIPT
