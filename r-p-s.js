@@ -23,3 +23,22 @@ const computerPlay = () => {
     computerSelection = randomChoice;
     computerChoice.innerHTML = 'Computer Choice:' + " " + computerSelection;
 }
+
+const finalResults = () => {
+    if (computerSelection === playerSelection) {
+        results = `It's a tie!`;
+    } else if (computerSelection === 'rock' && playerSelection === 'paper') {
+        results = 'You win!';
+    } else if (computerSelection === 'rock' && playerSelection === 'scissors') {
+        results = 'You lose!';
+    } else if (computerSelection === 'paper' && playerSelection === 'rock') {
+        results = 'You lose!';
+    } else if (computerSelection === 'paper' && playerSelection === 'scissors') {
+        results = 'You win'
+    } else if (computerSelection === 'scissors' && playerSelection === 'rock') {
+        results = 'You win!';
+    } else if (computerSelection === 'scissors' && playerSelection === 'paper') {
+        results = 'You lose!';
+    }
+    showResults.innerHTML = 'Results:' + " " + results;
+}
