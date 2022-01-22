@@ -12,6 +12,8 @@ const choices = ['rock', 'paper', 'scissors'];
 const playGame = (event) => {
     playerSelection = event.target.innerHTML;
     playerChoice.innerHTML = 'Your Choice:' + " " + playerSelection;
+    computerPlay();
+    finalResults();
 }
 
 for (const button of buttons) {
