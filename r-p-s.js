@@ -6,6 +6,7 @@ const showResults = document.getElementById('results');
 let computerSelection;
 let playerSelection;
 let results;
+let isClicked;
 
 const choices = ['rock', 'paper', 'scissors'];
 
@@ -17,7 +18,7 @@ const playGame = (event) => {
 }
 
 for (const button of buttons) {
-    button.addEventListener('click', playGame);
+    isClicked = button.addEventListener('click', playGame);
 }
 
 const computerPlay = () => {

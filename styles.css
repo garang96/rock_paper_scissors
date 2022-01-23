@@ -33,6 +33,7 @@ h1 {
     min-height: 1.5em;
     padding: .5em 1em;
     font-size: 2rem;
+    display: none;
 }
 
 .button-container {
@@ -52,4 +53,10 @@ button {
     border-radius: 6px;
     font-size: 1em;
     font-weight: 700;
+}
+
+p {
+    padding: 1em;
+    color: white;
+    font-size: 2em;
 }
