@@ -11,6 +11,9 @@ let isClicked;
 const choices = ['rock', 'paper', 'scissors'];
 
 const playGame = (event) => {
+    computerChoice.style.display = 'block';
+    playerChoice.style.display = 'block';
+    showResults.style.display = 'block';
     playerSelection = event.target.innerHTML;
     playerChoice.innerHTML = 'Your Choice:' + " " + playerSelection;
     computerPlay();
