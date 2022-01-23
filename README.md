@@ -19,3 +19,7 @@ Clicking a button will prompt the computer to display it's random choice and the
  - HTML
  - CSS
  - JAVASCRIPT
+
+ ## Live Demo
+
+ [Rock-Paper-Scissors](https://garang96.github.io/rock_paper_scissors/)
